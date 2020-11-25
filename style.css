@@ -1,0 +1,776 @@
+.header_left {
+  color: orange;
+}
+
+.details {
+  display: inline-block;
+}
+
+
+p.title img {
+  position: absolute;
+  top: 1%;
+  width: 200px;
+  height: 20px;
+  float: left;
+  padding-left: 165px;
+}
+
+.header {
+  padding-right: 100px;
+}
+
+ul.header1 {
+  position: absolute;
+  top: 1px;
+  font-size: 5px;
+  cursor: pointer;
+  padding-left: 400px;
+}
+
+.button_color {
+  color: white;
+  border-color: orange;
+  border-style: solid;
+  background-color: orange;
+  border-radius: 20px;
+  height: 40px;
+  margin: 40px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 40px;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero img{
+  position: relative;
+}
+
+.hero_logo img {
+  position: absolute;
+  top:25%;
+  width: 25%;
+  padding-left: 13%;
+}
+
+.hero_logo p {
+  position: absolute;
+  top: 30%;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.hero_logo span {
+  color: orange;
+}
+
+.NO1 {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+
+.button_color2 {
+  position: absolute;
+  top:50%;
+  left: 15%;
+  color: white;
+  border-color: orange;
+  border-style: solid;
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 23%;
+  height: 9%;
+}
+
+.main-section.top-about {
+  background-color: orange;
+}
+
+.main-section {
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+
+.content-width {
+  padding-left: 50px;
+}
+
+.about-text {
+  color: white;
+}
+
+.about-text h2 > span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.link-button.inversion {
+  color: orange;
+  background-color: white;
+}
+
+.link-button > span {
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 30%;
+    height: 40%;
+    font-size: 20px;
+    border: none;
+}
+
+.main-section {
+  padding-top: 85px;
+  padding-bottom: 75px;
+}
+
+.content-width {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section-content {
+  margin-top: 60px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+
+.section-header h2 > span {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.section-header p > span {
+  font-weight: bold;
+}
+
+.desc-list  li {
+    background-color: #fcfaf5;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.list-no {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -90px auto 0 auto;
+    background-color: #fcfaf5;
+    border-radius: 50%;
+    color: orange;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.example-tidy > ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.example-tidy img {
+  width: 100%;
+}
+
+
+.example-title-heading {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    vertical-align: bottom;
+    line-height: 1;
+}
+
+
+.desc-list .example-title {
+    display: inline-block;
+}
+
+.desc-list .example-title img {
+    margin-left: 10px;
+    width: 34px;
+}
+
+
+.desc-list .example-title ::after {
+    content: '';
+    display: block;
+    border-bottom: solid 4px #f79314;
+    margin-top: 10px;
+}
+
+.desc-list .example {
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.desc-list .example-contents img {
+    width: 100%;
+    height: auto;
+}
+
+
+.example-contents {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.desc-list .example-contents > li {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: list-item;
+}
+
+.desc-list .list-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.desc-list .content-text {
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.desc-list > li + li {
+    margin-top: 90px;
+}
+
+.desc-list .contents-text > span {
+    color: orange;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.desc-list .example-contents > li {
+    background-color: white;
+    padding: 0 30px;
+}
+
+.example-performance > ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.example-list img {
+    padding: 30px;
+    background-color: white;
+     width: 100%;
+}
+
+.example-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+.engineer-list {
+  margin-top: 40px;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+}
+
+.engineer-box {
+  background-color: white;
+  border-radius: 15px;
+   margin: 0 15px;
+   width: calc(100% / 3);
+}
+
+.engineer-plofile {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  padding: 20px;
+}
+
+.engineer-logo {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.engineer-text {
+  width: 100%;
+  position: relative;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin-top:15px;
+  text-align: start;
+  padding: 20px;
+}
+
+.engineer-text:before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 29px;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #f6f6f6;
+}
+
+.engineer-photo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.engineer-company01 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.engineer-company01 > span {
+    color: orange;
+    font-size: 14px;
+}
+
+.engineer-company02 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 15px;
+}
+
+.engineer-company02 > span {
+  color: orange;
+  font-size: 14px;
+}
+
+.engineer-company03 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 15px;
+}
+
+.engineer-company03 > span {
+  color: orange;
+  font-size: 14px;
+}
+
+.section-content {
+  margin-right: 130px;
+  margin-left: px;
+}
+
+.main-section.potepan {
+  position: relative;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #f6f6f6;
+}
+
+.potepan .content-width {
+ background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+ background-size: 281px 275px;
+ background-repeat: no-repeat;
+ padding-top: 35px;
+ background-position: calc(100% - 50px) top;
+}
+
+.section-header {
+  align-items: center;
+}
+
+.main-header {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.sub-heading {
+  font-weight: bold;
+}
+
+
+
+.cource-title > h2 {
+  color: black;
+  border: 3px solid orange;
+}
+
+.corce-plan {
+    font-weight: bold;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.corce-text-orange {
+  color: orange;
+}
+
+.corce-contents-details {
+  margin-left: 30px;
+  text-align: left;
+}
+
+.click-details {
+  text-align: right;
+}
+
+.corce-condition {
+  font-weight: 200;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -5px;
+}
+
+.corce-who {
+  color: black;
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+.rails-corce {
+  margin-top: 35px;
+}
+
+.link-button02 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: orange;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.section-button {
+margin-top: 60px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.link-button02 span:first-child {
+    letter-spacing: 4px;
+    line-height: 1.5;
+    color: white;
+}
+
+.link-button02 span:last-child {
+    font-size: 14px;
+    color: white;
+}
+
+.main-section.top-service {
+  background-color: #fcfaf5;
+}
+
+.section-main-header {
+  font-size: 50px;
+}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section-sub-header {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.section-content {
+  margin-top: 80px;
+  }
+  
+  .message-title {
+    display: inline-block;
+    font-size: 50px;
+    color: #ff802c;
+    line-height: 1;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.message-contents {
+  align-items: center;
+  display: flex;
+  margin-top: -70px;
+}
+
+.message-text {
+  background-color: white;
+  padding: 40px 150px 40px 40px;
+  margin-right: -200px;
+}
+
+.message-text p {
+  line-height: 2;
+  font-weight: 400;
+}
+
+.message-text p + p {
+    margin-top: 40px;
+}
+
+.message-photo {
+  position: relative;
+}
+
+.message-photo p {
+  position: absolute;
+  padding: 20px 20px 20px 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.message-photo span {
+  font-size: 25px;
+}
+
+.message-photo img {
+  margin-left: 60px;
+}
+
+.section-header::after {
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 48%;
+}
+
+.interview-photo {
+    object-fit: cover;
+    position: absolute;
+}
+
+.interview-media {
+    position: relative;
+    padding-top: 100%;
+    
+}
+
+.interview-list {
+  display: flex;
+  margin-left: -70px;
+  margin-right: -70px;
+}
+
+.interview-list > li {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: calc(100% / 3);
+}
+
+.interview-media > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.interview-photo-textbox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 80px 20px 20px;
+}
+
+.interview-textbox-title {
+  font-size: 14px;
+  color: orange;
+  font-weight: bold;
+}
+
+.interview-sub-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 5px;
+    padding-top: 4px;
+    border-top: 1px solid #fff;
+}
+
+.interview-text {
+  font-weight: bold;
+  margin-top: 15px;
+  line-height: 1.7;
+  color: black;
+}
+
+.main-section {
+  padding-top: 70px;
+}
+
+.service-list {
+  display: flex;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.service-list > li {
+ padding-right: 20px;
+ padding-left: 20px;
+ width: calc(100% / 3);
+}
+
+.service-media-thumbnail {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 190px;
+    box-sizing: border-box;
+}
+
+.service-media-thumbnail.red {
+    border-color: orange;
+}
+
+.service-media-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.top-potepan .content-width {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+    background-size: 281px 275px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 50px) top;
+    padding-top: 35px;
+}
+
+.service-media-text {
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 2;
+  margin-top: 20px;
+  color: black;
+}
+
+
+
+.site-footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer-main .footer-navi {
+  order: 2;
+}
+
+.footer-navi {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-navi > li {
+  line-height: 4;
+}
+
+.site-footer {
+  background-color: orange;
+  padding-top: 50px;
+}
+
+.footer-nav-item {
+  color: white;
+}
+
+.footer-character {
+  order: 3;
+  align-self: flex-end;
+}
+
+.footer-character > img {
+  width: auto;
+  height: 70px;
+}
+
+.footer-info{
+    order: 1;
+    display: block;
+    color: white;
+}
+
+.footer-info .footer-logo {
+  display: inline-block;
+  max-width: 280px;
+}
+
+.footer-info .footer-logo > img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-info .footer-social-item {
+    display: block;
+    max-width: 60px;
+}
+
+.footer-info .footer-social-item > img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+  list-style: none;
+}
